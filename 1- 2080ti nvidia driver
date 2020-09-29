@@ -1,5 +1,15 @@
 https://www.linuxbabe.com/ubuntu/install-nvidia-driver-ubuntu-18-04
 
+sudo lshw -c display (check which driver is being used. By default, the open source nouveau driver is being used for Nvidia card.)
+
+sudo ubuntu-drivers devices (list available driver for your Nvidia card from the default Ubuntu repository.)
+
+sudo ubuntu-drivers autoinstall (To install the recommended driver, run this command. Or insert the driver's number **sudo apt install nvidia-driver-430**)
+
+sudo shutdown -r now (restart and enable nvidia-prime)
+
+sudo lshw -c display (check to see if confuguration is changed to nvidia)
+
 
 
 
