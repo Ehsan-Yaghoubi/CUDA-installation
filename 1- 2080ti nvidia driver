@@ -2,6 +2,6 @@ link for more explanations: https://medium.com/better-programming/how-to-install
 
 1- download the driver run file from https://www.nvidia.com/download/driverResults.aspx/138279/en-us
 
-2- cd to the directory and type **chmod +x NVIDIA-Linux-x86_64–410.57.run**
+2- cd to the directory and type **chmod +x NVIDIA-Linux-x86_64-410.57.run**
 
 3- **sudo ./NVIDIA-Linux-x86_64–410.57.run — no-x-check**
