@@ -8,12 +8,15 @@ By defoult, Linux 20.04 has gcc 9.3; however, installing Cuda 10.1 requires lowe
 2- open a terminal and type:
 
 *sudo apt update*
+
 *sudo apt install g++-6*
 
 3- Create a symbolic link:
 
 *cd /usr/bin*
+
 *sudo rm gcc*
+
 *sudo ln -s /usr/bin/gcc-6 /usr/bin/gcc*
 
 4- Now, download cuda toolkit and follow the instructions to install it.
@@ -23,8 +26,10 @@ https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Linux&tar
 5- Finally, export the library by adding the addresses to the **.bashrc** file as follows:
 
 *cd*
+
 *sudo gedit .bashrc*
 
 **export PATH=/usr/local/cuda-10.1/bin${PATH:+:${PATH}}**
+
 **export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64\
                          {LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}**
