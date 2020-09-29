@@ -1,4 +1,4 @@
-# CUDA-installation
+# Installation
 Install CUDA toolkit 10.1 on Linux 20.04
 
 By defoult, Linux 20.04 has gcc 9.3; however, installing Cuda 10.1 requires lower version of gcc. So first I install gcc-6 and create a symbolic link to it as follows:
